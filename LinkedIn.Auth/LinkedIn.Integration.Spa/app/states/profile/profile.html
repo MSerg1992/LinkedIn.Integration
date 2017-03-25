@@ -1,0 +1,13 @@
+﻿<div class="row">
+    <div class="col-md-2">
+        <img ng-show="vm.user.imageUrl.length<=0" src="http://vignette1.wikia.nocookie.net/micronations/images/4/41/No-Avatar-High-Definition.jpg/revision/latest?cb=20140823100428" alt="No Avatar" />
+        <img ng-show="vm.user.imageUrl.length>0" src="{vm.user.imageUrl}" alt="{{vm.user.name}}" />
+    </div>
+
+    <div class="col-md-8">
+        <h1>{{vm.user.name}}</h1>
+        <h6>{{vm.user.email}}</h6>
+    </div>
+</div>
+
+

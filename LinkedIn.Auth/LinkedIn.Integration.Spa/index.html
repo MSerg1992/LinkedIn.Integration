@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html ng-app="LinkedIn.SPA">
+<head>
+    <title>LinkedIn Integration</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+
+    <!-- NOT MODIFY THIS -->
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+        api_key: 7754pb1h7xkfe6
+    </script>
+</head>
+<body ng-controller="RootCtrl">
+
+    <div class="container">
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="welcome">LinkedIn Integration</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="contacts">Contacts</a></li>
+                <!--<li ng-hide="!authentication.isAuthenticated"><a ui-sref="profile">Profile</a></li>
+                <li ng-hide="!authentication.isAuthenticated"><a ui-sref="contacts">Contacts</a></li>-->
+            </ul>
+
+            <ul class="nav navbar-nav pull-right">
+                <li>{{username}}</li>
+                <li><a href="#" linked-in-log-in>LinkedIn Login</a></li>
+                <li><a href="#" linked-in-log-out>LinkedIn Logout</a></li>
+
+                <!--<li ng-hide="!authentication.isAuthenticated">{{username}}</li>
+                <li><a href="#" linked-in-log-in>LinkedIn Login</a></li>
+                <li ng-hide="!authentication.isAuthenticated"><a href="#" linked-in-log-out>LinkedIn Logout</a></li>-->
+            </ul>
+        </nav>
+
+        <!-- MAIN CONTENT -->
+        <div ui-view></div>
+    </div>
+
+</body>
+</html>
+
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/angular-local-storage.min.js"></script>
+<script src="Scripts/angular-ui-router.min.js"></script>
+
+<script src="/app/core/app.js"></script>
+<script src="/app/core/app.config.js"></script>
+<script src="/app/core/app.controller.js"></script>
+<script src="app/core/app.run.js"></script>
+
+<script src="app/states/profile/profile.controller.js"></script>
+
+<script src="app/directives/angularjs-linkedin.js"></script>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LinkedIn.Integration.Web", "LinkedIn.Integration.Web\", "{3F3A6040-923A-40E0-AB47-D443D9392E4F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52650"
+		Debug.AspNetCompiler.PhysicalPath = "LinkedIn.Integration.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52650\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52650"
+		Release.AspNetCompiler.PhysicalPath = "LinkedIn.Integration.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52650\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52650"
+		SlnRelativePath = "LinkedIn.Integration.Web\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LinkedIn.Integration.Spa", "LinkedIn.Integration.Spa\", "{388159AE-E0B4-4F35-B2B5-67FF18BB7CED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52651"
+		Debug.AspNetCompiler.PhysicalPath = "LinkedIn.Integration.Spa\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52651\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52651"
+		Release.AspNetCompiler.PhysicalPath = "LinkedIn.Integration.Spa\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52651\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52651"
+		SlnRelativePath = "LinkedIn.Integration.Spa\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F3A6040-923A-40E0-AB47-D443D9392E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3A6040-923A-40E0-AB47-D443D9392E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388159AE-E0B4-4F35-B2B5-67FF18BB7CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388159AE-E0B4-4F35-B2B5-67FF18BB7CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
